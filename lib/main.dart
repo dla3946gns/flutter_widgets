@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/flutter_carousel.dart';
+import 'package:flutter_widgets/quick_link.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +30,8 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  //State<MyHomePage> createState() => _MyHomePageState();
+  State<MyHomePage> createState() => QuickLinkState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
